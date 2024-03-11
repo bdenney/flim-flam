@@ -70,6 +70,7 @@ fun CompleteView(percentCorrect: Float, onComplete: () -> Unit) {
                     )
                 )
             )
+            .padding(16.dp)
     ) {
         Icon(
             imageVector = Icons.Filled.Check,
@@ -79,13 +80,13 @@ fun CompleteView(percentCorrect: Float, onComplete: () -> Unit) {
                 .width(128.dp)
                 .height(128.dp)
         )
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(32.dp))
         Text(
             text = "Great job! You got ${(percentCorrect * 100).toInt()}% correct",
             fontWeight = FontWeight.Bold,
-            fontSize = 36.sp,
+            fontSize = 24.sp,
         )
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(32.dp))
         Button(
             onClick = { onComplete() },
             modifier = Modifier
@@ -93,7 +94,7 @@ fun CompleteView(percentCorrect: Float, onComplete: () -> Unit) {
         ) {
             Text(
                 text = "Finish",
-                fontSize = 36.sp,
+                fontSize = 24.sp,
                 modifier = Modifier
                     .padding(start = 16.dp, end = 16.dp)
             )
