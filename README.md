@@ -1,12 +1,2 @@
-# Android Template
-Simple template that has the bare minimum of an Android app that utilizes Compose for UI.
-
-## Added Permissions
-* `INTERNET` for internet access
-* `ACCESS_NETWORK_STATE` for internet access
-
-## Notable Dependencies
-* **Retrofit** for networking, along with the GSON package for JSON parsing
-* **Hilt** for dependency injection
-* **Coil** for image loading
-* **androidx.lifecycle**
+# ModTwo
+Presentation [link](https://docs.google.com/presentation/d/1RrSR8litVgE6yCLqvN4DmJUOn0MO8rOB7NizWNk0DRw/edit#slide=id.g1f87997393_0_782)
