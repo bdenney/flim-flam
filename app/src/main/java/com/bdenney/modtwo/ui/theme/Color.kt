@@ -1,4 +1,4 @@
-package com.bdenney.template.ui.theme
+package com.bdenney.modtwo.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

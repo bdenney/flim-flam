@@ -1,4 +1,4 @@
-package com.bdenney.template
+package com.bdenney.modtwo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,8 +1,8 @@
-package com.bdenney.template
+package com.bdenney.modtwo
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class TemplateApplication: Application() {
+class ModTwoApplication: Application() {
 }

@@ -1,4 +1,4 @@
-package com.bdenney.template.ui.theme
+package com.bdenney.modtwo.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -10,21 +10,25 @@ import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = Color(0xff68dbb0),
+    secondary = Color(0xffb3ccbf),
+    tertiary = Color(0xffa6cce0),
+    background = Color(0xff191c1a)
+
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
+    primary = Color(0xff006c4f),
+    secondary = Color(0xff4c6358),
+    tertiary = Color(0xff3e6374),
+    background = Color(0xfffbfdf9)
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),

@@ -1,4 +1,4 @@
-package com.bdenney.template
+package com.bdenney.modtwo
 
 import org.junit.Test
 
